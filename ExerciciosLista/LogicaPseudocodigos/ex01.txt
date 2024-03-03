@@ -1,0 +1,4 @@
+Considerando a linguagem C, assinale as alternativas que são possíveis nomes para variáveis.
+a) Somatorio b) Somatório c) X d) Tipo.1 e) aux f) printf g) valor final h) Tipo_1 i) valor-total j) int
+
+Resposta: a,c,e,h
