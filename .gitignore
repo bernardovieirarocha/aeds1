@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+# Binary files
+*
+!/**/
+!*.*
+
 # Object files
 *.o
 *.ko
@@ -50,3 +55,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+
+.vscode
+../../.DS_Store
+../
+.DS_Store
