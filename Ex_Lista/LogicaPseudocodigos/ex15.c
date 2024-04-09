@@ -5,25 +5,23 @@ int main(void) {
   float x, t, theta, y;
   float vo, ay;
 
-  // Input values for x, t, and theta
-  printf("Enter the distance x: ");
+  printf("Distancia percorrida ate o ponto P x: ");
   scanf("%f", &x);
-
-  printf("Enter the time t: ");
+ 
+  printf("Tempo transcorrido ate o ponto P t: ");
   scanf("%f", &t);
 
-  printf("Enter the launch angle theta: ");
+  printf("Angulo de lancamento 0: ");
   scanf("%f", &theta);
 
-  // Calculate the initial vertical velocity
+  // Calculo da velocidade inicial do projetil
   vo = x / (t * cos(theta));
 
-  // Calculate the vertical acceleration
-  ay = -9.8; // Assuming acceleration due to gravity is -9.8 m/s^2
+  ay = -9.8; // Assumindo que gravidade eh -9.8m/sˆ2
 
-  // Calculate the vertical displacement at point P
+  // Calculo da altura maxima no ponto P
   y = vo * sin(theta) * t + 0.5 * ay * pow(t, 2);
 
   // Output the result
-  printf("The vertical displacement at point P is: %f\n", y);
+  printf("A altura máxima (h_max) no ponto P eh: %f\n", y*-1);
 }

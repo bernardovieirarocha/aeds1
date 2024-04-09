@@ -16,11 +16,11 @@ int main(void) {
   float raiz1;
   float raiz2;
   printf("Digite o valor de a: ");
-  scanf("%f", &a);
+  scanf(" %f", &a);
   printf("Digite o valor de b: ");
-  scanf("%f", &b);
+  scanf(" %f", &b);
   printf("Digite o valor de c: ");
-  scanf("%f", &c);
+  scanf(" %f", &c);
 
   printf("Calculando o delta...\n");
   int delta = calcularDelta(a, b, c);
