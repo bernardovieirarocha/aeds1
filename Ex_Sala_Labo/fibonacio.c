@@ -22,3 +22,28 @@ int main() {
 
   return 0;
 }
+
+// Somente o Display da sequencia
+// #include <stdio.h>
+//
+//
+// int main(void) {
+// 	int a=0, b=1, num, nextTerm;
+//
+// 	scanf("%d%*c", &num);
+//
+// 	printf("0 ");
+// 	for (int i = 1 ; i <= num; i++){
+//
+// 		if ( a != 0 ) {
+// 			printf("%d ", a);
+//
+// 		}
+//
+// 		nextTerm = a + b;
+// 		a = b;
+// 		b = nextTerm;
+// 	}
+//
+// 	return 0;
+// }
