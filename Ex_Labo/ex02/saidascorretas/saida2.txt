@@ -1,0 +1,4 @@
+Este angulo se encontra em um dos eixos
+Primeiro quadrante
+0 volta(s) sentido antihorario
+Falta(m) 270 graus (sentido antihorario) para completar 1 volta(s)
