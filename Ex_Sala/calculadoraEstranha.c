@@ -1,3 +1,40 @@
+// ATENÇÃO: Este é um exercício para ser feito em sala de aula. Logo, entregas
+// de alunos(as) que não estiverem presentes no dia da aplicação, terão suas
+// entregas desconsideradas.
+
+// ENUNCIADO: Faça um programa que permita, continuamente, a realizar cálculos
+// bizarros entre dois números x e y. Primeiro, deve-se saber se o(a) usuário(a)
+// quer realizar um novo cálculo ou não (sendo 0 tal opção). Caso positivo, o
+// programa lerá 2 números inteiros (positivos ou negativos) e as possibilidades
+// de cálculo serão:
+
+// 1. Soma entre x e y (e.g., x = 3 e y = 5, então 8)
+
+// 2. Subtração entre x e y (e.g., x = 9 e y = 4, então 5)
+
+// 3. Divisão entre x e y (e.g., x = 12 e y = 6, então 2)
+
+// 4. Multiplicação entre x e y (e.g., x = 8 e y = 5, então 40)
+
+// 5. Exponenciação entre x e y (e.g., x = 2 e y = 4, então 16)
+
+// 6. Remoção do y-ésimo dígito de x (e.g., x = 1234 e y = 2, então 134)
+
+// 7. Construção do número cujos dígitos são a soma daqueles em x e y (e.g., x =
+// 123 e y = 456, então 579)
+
+// 8. Construção do número cujos dígitos alternam entre aqueles em x e em y
+// (e.g., x = 123 e y = 456, então 142536)
+
+// 9. Construção do número cujos dígitos são aqueles em x e em y, mas em ordem
+// reversa (e.g., x = 123 e y = 456, então 123654)
+
+// Para as opções 6 a 9, caso algum número seja negativo, deve-se convertê-lo
+// para positivo e realizar a operação desejada.
+
+// RESTRIÇÕES: Não se pode utilizar nenhum conceito não visto em sala de aula
+// (por ex., biblioteca math.h)
+
 #include <stdio.h>
 #include <stdlib.h>
 

@@ -1,3 +1,34 @@
+// ATENÇÃO : Este é um exercício para ser feito em sala de aula.Logo,
+//     entregas de alunos(as)
+// que não estiverem presentes no dia da aplicação,
+//     terão suas entregas desconsideradas.
+
+//     ENUNCIADO : Você deve fazer um programa que leia do(a)
+//                     usuário(a) uma sequência de
+//                 10 números que serão passados por ele(a) e,
+//     em seguida,
+//     oferecer as seguintes opções : 0. Sair do programa
+//     1. Atualizar o valor em um índice
+//     específico(fornecido pelo(a) usuário(a)) da sequência 2. Exibir sequência
+//     3. Exibir sequência em ordem reversa
+//     4. Exibir a somatória de todos os valores da sequência
+//     5. Exibir a contagem de números duplicados da sequência 6. Exibir os
+//     valores únicos(i.e., sem repetição) da sequência
+//     7. Exibir a frequência de todos os valores da sequência
+//     8. Exibir o valor máximo,
+//     mínimo e médio(com duas casas decimais) da sequência
+//     9. Exibir o valor da mediana da sequência
+//     10. Exibir a sequência em ordem crescente
+//     11. Exibir a sequência em ordem decrescente
+//     12. Exibir os valores pares e ímpares da
+//     sequência(sem repetição) 13. Exibir a sequência rotacionada M
+//     vezes(quantidade fornecida pelo(a) usuário(a)) para a esquerda
+//     14. Exibir a sequência rotacionada M
+//     vezes(quantidade fornecida pelo(a) usuário(a)) para a direita
+
+//     RESTRIÇÕES : Não se pode utilizar nenhum conceito não visto em sala de
+//                  aula(por ex., cadeias de caracteres)
+
 #include <stdio.h>
 #include <stdlib.h>
 
