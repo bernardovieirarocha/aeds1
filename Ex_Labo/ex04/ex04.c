@@ -44,8 +44,8 @@ int qtd_algarismos(int n1) {
   return qtd_algarismo;
 }
 
-int main() {
-  int escolha;
+int main(void) {
+  int escolha = 1;
   int num1;
   int num2;
   while (escolha != 0) {
@@ -117,7 +117,6 @@ int main() {
       }
       printf("%d\n", res);
     } else if (escolha == 3) {
-      int tamN1 = qtd_algarismos(num1);
       int tamN2 = qtd_algarismos(num2);
       // Aumenta o numero possivel, pois para concatenacao pode criar valores
       // muito grandes.

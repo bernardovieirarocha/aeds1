@@ -29,8 +29,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-
+int main(void) {
   int sequencia[10];
   int unico = 0;
   int frequencia[10];
@@ -92,7 +91,6 @@ int main() {
 
       // Coloca a nova sequencia em ordem crescente para poder mostrar os
       // repetidos conforme o estabelecido nos exemplos de saida
-      int temp = 0;
       for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 10 - i - 1; j++) {
           if (sequencia_crescente[j] > sequencia_crescente[j + 1]) {
@@ -126,7 +124,6 @@ int main() {
         sequencia_crescente[i] = sequencia[i];
       }
 
-      int temp = 0;
       for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 10 - i - 1; j++) {
           if (sequencia_crescente[j] > sequencia_crescente[j + 1]) {
@@ -139,7 +136,7 @@ int main() {
       }
       // contador pra ver quantas vezes repetiu e o flag pra ser ja foi
       // encontrado uma vez.
-      int contador, encontrado;
+      int contador;
 
       for (int i = 0; i < 10; i++) {
         contador = 1;
@@ -191,7 +188,7 @@ int main() {
       for (int i = 0; i < 10; ++i) {
         sequencia_crescente[i] = sequencia[i];
       }
-      int temp = 0;
+
       for (int i = 0; i < 9; i++) {
         for (int j = 0; j < 10 - i - 1; j++) {
           if (sequencia_crescente[j] > sequencia_crescente[j + 1]) {
@@ -258,6 +255,33 @@ int main() {
         sequencia_rotacionada[i] = sequencia[i];
       }
 
+      for (int i = 0; i < qtd_rotacoes; i++) {
+        int temp = sequencia_rotacionada[0]; // Primeiro elemento da sequencia
+        for (int i = 0; i < 9; i++) {
+          // Move cada elemento para a esquerda, comecando pelo segundo, para
+          // substituir o elemento anterior na sequência.
+          sequencia_rotacionada[i] = sequencia_rotacionada[i + 1];
+        }
+        // Coloca o primeiro elemento original no final de sequencia e conclui
+        // uma rotacao para esquerda.
+        sequencia_rotacionada[9] = temp;
+      }
+      for (int i = 0; i < 10; i++) {
+        printf("%d ", sequencia_rotacionada[i]);
+      }
+      printf("\n");
+    } else if (option == 11) {
+
+      int qtd_rotacoes;
+      scanf("%d%*c", &qtd_rotacoes);
+      // Cria uma nova sequencia baseada na recebida pelo usuario para nao
+      // afetar, interferir na sequencia corrente, ja que nos testes, observa-se
+      // que essa mudanca nao eh persistente.
+      int sequencia_rotacionada[10] = {0};
+      for (int i = 0; i < 10; ++i) {
+        sequencia_rotacionada[i] = sequencia[i];
+      }
+
       // Dessa forma com base num numero pre determinado de rotacoes o loop
       // abaixo, pega o ultimo do vetor coloca como primeiro e move todos os
       // elementos pra direita e assim por diante o numero de vezes desejadas.
@@ -278,32 +302,7 @@ int main() {
         printf("%d ", sequencia_rotacionada[i]);
       }
       printf("\n");
-    } else if (option == 11) {
-      int qtd_rotacoes;
-      scanf("%d%*c", &qtd_rotacoes);
-      // Cria uma nova sequencia baseada na recebida pelo usuario para nao
-      // afetar, interferir na sequencia corrente, ja que nos testes, observa-se
-      // que essa mudanca nao eh persistente.
-      int sequencia_rotacionada[10] = {0};
-      for (int i = 0; i < 10; ++i) {
-        sequencia_rotacionada[i] = sequencia[i];
-      }
 
-      for (int i = 0; i < qtd_rotacoes; i++) {
-        int temp = sequencia_rotacionada[0]; // Primeiro elemento da sequencia
-        for (int i = 0; i < 9; i++) {
-          // Move cada elemento para a esquerda, comecando pelo segundo, para
-          // substituir o elemento anterior na sequência.
-          sequencia_rotacionada[i] = sequencia_rotacionada[i + 1];
-        }
-        // Coloca o primeiro elemento original no final de sequencia e conclui
-        // uma rotacao para esquerda.
-        sequencia_rotacionada[9] = temp;
-      }
-      for (int i = 0; i < 10; i++) {
-        printf("%d ", sequencia_rotacionada[i]);
-      }
-      printf("\n");
     } else {
       printf("Opcao invalida\n");
     }
