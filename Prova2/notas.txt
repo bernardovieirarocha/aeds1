@@ -1,0 +1,9 @@
+8
+bernardo 76
+luis 82
+cleiton 92
+Amaral 98
+Jorge 93
+bianca 23
+laura 45
+matheus 40

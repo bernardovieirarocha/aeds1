@@ -1,0 +1,6 @@
+bernardo
+luis
+cleiton
+Amaral
+Jorge
+Menor: 76 Maior: 98 Media: 88.20
