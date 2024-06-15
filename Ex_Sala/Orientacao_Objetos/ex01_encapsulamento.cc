@@ -42,7 +42,7 @@ public:
 
 private:
   float notasProvas[3];
-  float notaTrabalho; // como inicio variaveis com 0 na classe do C++??;
+  float notaTrabalho; // como inicio variaveis com 0 na classe do C++??; // constructor
   float media;
 };
 

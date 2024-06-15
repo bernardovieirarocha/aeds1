@@ -1,0 +1,1 @@
+// Faça um programa que crie uma classe Matriz de NxM cujos atributos são protected. Depois crie um classe vetor que herde de matriz seus atributos e funções.
