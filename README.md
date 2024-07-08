@@ -3,7 +3,7 @@
 Este repositório contém os materiais e códigos de solução para os exercícios da disciplina de Algoritmos e Estruturas de Dados I do curso de Ciência da Computação da PUC-Minas com o Professor Felipe de Castro Belém.
 
 > [!TIP]
-> Acesse a WIKI do Repositório para mais informações!!
+> Acesse a @WIKI do Repositório para mais informações!!
 
 ## Estrutura do Repositório
 
