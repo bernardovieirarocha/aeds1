@@ -4,6 +4,8 @@ Este repositório contém os materiais e códigos de solução para os exercíci
 
 > [!TIP]
 > Acesse a @WIKI do Repositório para mais informações!!
+
+
 > [!TIP]
 > Em Exercícios de Sala tem um pequeno resumo do conteúdo mais básico!!
 
