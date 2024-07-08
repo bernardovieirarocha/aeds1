@@ -1,0 +1,1 @@
+A revisão para a terceira prova foi os exercicios de C++ como orientação a objetos e o exercicios Web do CodeForces.
